@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Selection</title>
+</head>
+<body>
+    <h1>Select a Restaurant</h1>
+    <form action="/restaurant" method="post">
+        <select name="restaurant">
+            {% for name in restaurant_names %}
+                <option value="{{ name }}">{{ name }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Show Details">
+    </form>
+</body>
+</html>

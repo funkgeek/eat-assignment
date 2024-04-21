@@ -14,6 +14,7 @@ eat_project/
 └── templates/
     ├── index.html
     └── restaurant.html
+Data files "all_data.json" and "eat_task.db" are also included in this repo. If you want to generate yourself, delete them. Then go with following steps.
 
 STEP 3: open "eat_project" folder in VS Code (or other IDE you like, but do not use google colab (it will not work for app.py because it need to use flask-ngrok.)
 

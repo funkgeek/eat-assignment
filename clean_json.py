@@ -24,7 +24,7 @@ class RestaurantDataProcessor:
             list: Cleaned records.
         """
         clean_records = []
-        for restaurant in data['restaurants']:
+        for restaurant in data['restaurants'][:10]:
             clean_record = {}
             for key, value in restaurant.items():
                 if key == 'id':

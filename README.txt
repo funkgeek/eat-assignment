@@ -37,11 +37,13 @@ STEP 7: select the restaurant name, click show details, then you will see the cu
 
 Assumption/things not clear to me:
 1.The requirement only mentioned build an interface, but I'm not sure it shall be interactive or not, so I think it's more safte to make it interactive.
-2.It was not mentioned that how shall we present the "cuisines" data, so to reduce the data complexity, I extract the name of the different cuisine as string, and merge them into one string, seperated by "|"
-3.It's relative small amount of data, why do we need to limit it for only show the first 10 records? Or shall I use Dataframe so it saves more time and trouble?
+2.It was not mentioned that how shall we present the "cuisines" data, so to reduce the data complexity, I extract the name of the different cuisine as string, and merge them into one string, seperated by "|". 
+3.The content of cuisines is a bit confusing for me as some of them are not on the level in semantics. 
+4.It's relative small amount of data, I‘m not sure about the reason for limiting it for only show the first 10 records? Or shall I use Dataframe so it saves more time and trouble?
 
 Improvement I want to make:
 Make the webpage more pretty with css. 
+Add a fuction that aLLow to filter restaurant according to the cuisines content.
 
 
 

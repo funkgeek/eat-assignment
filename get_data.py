@@ -1,6 +1,6 @@
 import requests
 import json
-
+#Get data from the API provide with the chosen postcode
 class JustEatAPI:
     def __init__(self, postcode):
         self.postcode = postcode
